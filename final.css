@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  background-color: #dd91c6;
+}
+
+.profile {
+  max-width: 500px;
+  min-height: 100vh;
+  margin: 7rem auto;
+}
+
+.profile h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about, .contact {
+  text-align: center;
+}
+
+h3{
+  text-align: left;
+  margin: 20px 0;
+}
+
+.contact-links{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.contact-links a {
+  flex-basis: calc((100% - 3rem) / 4);
+}
+
+a{
+    text-decoration: none;
+}
+
+a, .btn button, #click{
+  background-color: #dd91c6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+a:hover, .btn button:hover, #click:hover {
+  background-color: #d4aa70;
+  color: white;
+  cursor: pointer;
+}
+
+.Education p{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #d4aa70;
+}
+
+.header-education{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 20px;
+}
